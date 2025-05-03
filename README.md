@@ -3,14 +3,14 @@
 
 This **Movie Recommender System** is a content-based recommendation engine that helps users discover movies similar to their interests. The system uses natural language processing (NLP) and machine learning techniques to suggest films based on a given movie's metadata, such as genre, cast, and crew and Tags.
 
-## 🚀 Features
+## Features
 
 - Recommends 5 similar movies based on user input.
 - Built using **Python**, **Machine Learning**, and **NLP** techniques.
 - Uses **cosine similarity** to calculate movie similarity based on metadata.
 - Deployed with **Streamlit** for an interactive web interface.
 
-## 📊 Technologies
+## Technologies
 
 - **Python**
 - **Pandas**
@@ -20,14 +20,14 @@ This **Movie Recommender System** is a content-based recommendation engine that 
 - **CountVectorizer** (for text vectorization)
 - **Cosine Similarity** (for finding similar movies)
 
-## 📂 Project Structure
-Movie_Recommender/
+## Project Structure
+Movie_Recommender
 │
-├── app.py # Streamlit web application
-├── movies.csv # Dataset containing movie metadata
-├── similarity_matrix.pkl# Precomputed movie similarity matrix
-├── requirements.txt # Required Python packages
-└── README.md # Project documentation
+├── app.py
+├── movies.csv
+├── similarity_matrix.pkl
+├── requirements.txt
+└── README.md
 
 How it Works
 Preprocessing: Data cleaning and handling missing values.
@@ -39,3 +39,5 @@ NLP Techniques: Tokenization and stemming applied to text data.
 Vectorization: Using CountVectorizer to convert text into numerical data.
 
 Similarity Calculation: Cosine similarity is used to find the top 5 similar movies.
+
+
