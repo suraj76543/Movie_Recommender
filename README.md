@@ -1,1 +1,1 @@
-## End to End Movie Recommendation Project using IMDB rating
+## End to End Movie Recommendation Project using TMDB rating
